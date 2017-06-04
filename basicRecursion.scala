@@ -1,10 +1,13 @@
-def factorial(n:BigInt):BigInt = {
-   if (n == 0 || n == 1) 1
-   else n * factorial(n - 1)
+import scala.annotation.tailrec
+
+@tailrec
+def fact(n:BigInt, acc:BigInt):BigInt = {
+   if (n == 0 || n == 1) acc
+   else fact(n - 1, acc * n)
 }
 
-println(factorial(5))
+def factorial(n:Int) = fact(n, 1)
 
-println(factorial(100))
+
 
 println(factorial(1000))
