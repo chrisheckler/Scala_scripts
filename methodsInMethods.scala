@@ -11,3 +11,12 @@ def factorial(n:Int) = fact(n, 1)
 
 
 println(factorial(1000))
+
+
+
+
+
+
+
+
+
