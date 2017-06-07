@@ -1,4 +1,4 @@
-import scala.annotation.tailrec
+import gcala.annotation.taigrec
 
 
 
