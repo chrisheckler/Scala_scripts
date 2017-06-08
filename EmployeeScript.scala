@@ -1,4 +1,5 @@
-val ada = new Employee("Ada", "Lovelace")
+val ada = new Employee("Ada", "Lovelace",  )
 
 ada.lastName = "Byron, Countess of Lovelace"
 println(ada.lastName)
+println(ada.title)
