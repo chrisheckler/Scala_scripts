@@ -8,4 +8,4 @@ println(decide("Hello!"))
 
 def decidePoorly(x:Any) = x.asInstanceOf[Int] + 10
 println(decidePoorly(4))
-println(decidePoorly("Zing"))
+
